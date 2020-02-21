@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fix{
+    float: left;
+}
+body{
+    font-family: 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(163, 158, 158);
+    font-size: 14px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #515151;
+}f
+.full_container{
+    width: 100%;
+}
+.header_bg{
+    background-image: url("img/background_img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 960px;
+    display: block;
+    margin: 0px auto;
+    overflow: hidden;
+}
+header{
+    padding: 100px 0px 60px 0px;
+    overflow: hidden;
+}
+.header_left{
+    width: 50%;
+    padding-top: 120px;
+}
+.header_right{
+    width:50%; 
+}
+.header_right img{
+    width:100%;
+}
+.header_left h1{
+    color: rgb(206, 79, 120);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.header_left p{
+    margin-bottom: 40px;
+}
+.special_button{
+    text-decoration: none;
+    color: white;
+    padding:8px 30px;
+    background-image: linear-gradient(45deg, rgb(218, 137, 176), rgb(206,77,112));
+    border-radius: 3px;
+    font-size: 12px;
+}
+.content_up_bg{
+    background-image: url("img/background_img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content_up{
+    padding: 100px 0px 60px 0px;
+    overflow: hidden;
+}
+.content_up_left{
+    width: 50%;
+}
+.content_up_left img{
+    width: 100%;
+}
+.content_up_right{
+    width: 40%;
+    margin: 130px 0px 0px 80px;
+}
+.content_up_right p{
+    margin:25px 0px 35px;
+}
+.content_down_bg{
+    background-image: url("img/background_img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content_down{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.content_down h2{
+    text-align: center;
+    padding: 50px 0px;
+}
+.img_bundle img{
+    width:30%;
+    float: left;
+    margin-right: 5%;
+}
+.img_bundle img:last-child{
+    margin-right: 0;
+}
+.footer_bg{
+    background-image: url("img/background_img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    padding-bottom: 30px;
+}
+footer h2{
+    text-align: center;
+    padding: 160px 0px 50px;
+}
+footer h2.special{
+    padding:0px;
+    font-size: 18px;
+}
+footer p{
+    text-align: center;
+}
+footer p.special{
+    margin: 40px 0px;
+    color: rgb(68, 66, 66);
+    font-size: 16px;
+}
+.special_{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 7px;
+    padding: 40px 110px 40px;
+    margin: 0px 0px 200px 200px;
+    
+}
+.special_ span{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+}
